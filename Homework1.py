@@ -36,7 +36,7 @@ def create_flower():
 #parameter: "angle_st" is the first move that resets the old position.
 #parameter: "type_" sets the direction of the curve.
 #parameter: "angle_th" is the rate at which the angle changes during forward motion.
-
+#parameter: "long" is the distance that you want to move
 def create_flower_stem(angle_st,type_,angle_th,long):
   turtle.left(angle_st)
   for i in range(12):
